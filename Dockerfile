@@ -10,7 +10,7 @@ RUN npm i
 WORKDIR /app/client
 RUN npm i
 # RUN npm install worker-loader
-RUN npm run build
+# RUN npm run build
 
 
 # RUN useradd -m myuser
